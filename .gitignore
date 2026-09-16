@@ -1,0 +1,27 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Large data archives
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Model weights (optional - comment out if you want to push them)
+# *.keras
+# *.h5
+# *.pt
+# *.pth
+
+# OS files
+.DS_Store
+Thumbs.db

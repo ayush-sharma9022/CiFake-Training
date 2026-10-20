@@ -1,0 +1,30 @@
+{
+    "in_distribution_test": {
+        "accuracy": 0.884,
+        "precision": 0.8701799485861182,
+        "recall": 0.9026666666666666,
+        "f1_score": 0.8861256544502618,
+        "roc_auc": 0.9548017777777777,
+        "true_negatives": 649,
+        "false_positives": 101,
+        "false_negatives": 73,
+        "true_positives": 677,
+        "false_positive_rate": 0.13466666666666666,
+        "false_negative_rate": 0.09733333333333333
+    },
+    "cross_dataset_test": {
+        "accuracy": 0.493,
+        "precision": 0.49544863459037713,
+        "recall": 0.762,
+        "f1_score": 0.6004728132387707,
+        "roc_auc": 0.5097740000000001,
+        "true_negatives": 112,
+        "false_positives": 388,
+        "false_negatives": 119,
+        "true_positives": 381,
+        "false_positive_rate": 0.776,
+        "false_negative_rate": 0.238
+    },
+    "best_val_acc": 0.886,
+    "best_val_loss": 0.27065177430709203
+}
